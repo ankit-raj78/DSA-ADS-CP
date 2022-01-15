@@ -10,11 +10,11 @@ public:
             meh+=nums[i];
             if(meh > msf)
             {
-                sub_arr.clear();
+//sub_arr.clear();
                 msf= meh;
-               sub_arr.push_back(s);
-                sub_arr.push_back(i);
-                
+              // sub_arr.push_back(s);
+             //   sub_arr.push_back(i);
+                //
             }
             
             if(meh<0)
