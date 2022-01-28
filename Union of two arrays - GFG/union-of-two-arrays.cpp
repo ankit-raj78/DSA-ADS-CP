@@ -13,31 +13,7 @@ class Solution{
     int doUnion(int a[], int n, int b[], int m)  {
         //code here
         unordered_set<int> set;
-        /*
-        int count = 0;
-        int ans[m+n];
-        int i;
-        for( i=0;i<n;i++)
-        {
-            ans[i] = a[i];
-        }
-        int j,k;
-        for(j=0,k=0;k<m;k++,j++)
-        {
-            ans[j]=b[k];
-        }
-        sort(ans,ans+m+n);
         
-        for(int l=0;i<l;l++)
-        {
-            if(ans[i]!=ans[i-1])
-            {
-                count++;
-                
-            }
-        }
-        return count;
-        */
         for(int i =0;i <n;i++)
        {
            set.insert(a[i]);
